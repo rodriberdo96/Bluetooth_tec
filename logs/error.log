@@ -1,0 +1,39 @@
+[31m[2023-06-02T04:56:04.104Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T04:56:04.111Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-02T04:57:36.605Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T04:57:36.607Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-02T04:57:37.971Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T04:57:37.974Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-02T04:57:44.077Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T05:00:06.695Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T05:00:07.679Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T05:00:13.562Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T05:00:13.564Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-02T05:00:55.019Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T05:00:55.024Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-02T05:01:03.560Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-02T05:01:03.562Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:07:59.884Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-04T21:07:59.892Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:15:51.709Z] - level: error - Error in userExists-DAO: ReferenceError: UserScema is not defined[39m
+[31m[2023-06-04T21:15:51.715Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:16:56.958Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-04T21:16:56.964Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:18:04.910Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-04T21:18:04.915Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:19:49.899Z] - level: error - Error in userExists-DAO: TypeError: Cannot read properties of undefined (reading 'findOne')[39m
+[31m[2023-06-04T21:19:49.905Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:20:17.251Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:20:17.553Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:22:49.469Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:23:10.560Z] - level: error - Error en register-Services: ReferenceError: encryptedPassword is not defined[39m
+[31m[2023-06-04T21:23:21.180Z] - level: error - Error en register-Services: ReferenceError: Password is not defined[39m
+[31m[2023-06-04T21:24:43.520Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:25:24.799Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:26:31.837Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:28:20.835Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:30:00.157Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:31:13.595Z] - level: error - Error en register-Services: ReferenceError: password is not defined[39m
+[31m[2023-06-04T21:31:26.778Z] - level: error - Error en register-Services: ReferenceError: Password is not defined[39m
+[31m[2023-06-04T21:31:53.613Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:32:13.763Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
