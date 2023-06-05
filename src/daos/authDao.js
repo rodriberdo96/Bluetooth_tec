@@ -17,13 +17,7 @@ class AuthDaoClass {
     async register(data) {
         try {
             const user = await User.create(data)
-            const data = {
-                id: user._id,
-                email: user.email
-                
-            }
             return user
-
         } catch (error) {
             logger.error("Error in register-DAO: " + error)
         }
@@ -34,13 +28,12 @@ class AuthDaoClass {
             const user = await User.findOne({ email });
             if (!user) {
                 logger.warn('Usuario no encontrado');
-                return null; 
+                return null;  
             }
-    
             const isPasswordMatch = bcrypt.compare(password, user.password);
             if (!isPasswordMatch) {
                 logger.warn('Contraseña incorrecta');
-                return null;
+                return null; 
             }
     
             const payload = { id: user._id, email: user.email };
@@ -49,7 +42,7 @@ class AuthDaoClass {
             return { ...payload, token };
         } catch (error) {
             logger.error("Error en login-DAO: " + error);
-            throw error;
+            throw error; 
         }
     }
     async getUserByToken(tokenH) {
