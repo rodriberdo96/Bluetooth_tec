@@ -37,3 +37,46 @@
 [31m[2023-06-04T21:31:26.778Z] - level: error - Error en register-Services: ReferenceError: Password is not defined[39m
 [31m[2023-06-04T21:31:53.613Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
 [31m[2023-06-04T21:32:13.763Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:42:56.994Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:43:10.535Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:43:13.588Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T21:43:20.817Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T21:44:25.818Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T21:45:04.136Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T21:48:22.499Z] - level: error - Error in login-DAO: Error: Usuario no existe[39m
+[31m[2023-06-04T21:50:04.039Z] - level: error - Error in login-DAO: ReferenceError: password is not defined[39m
+[31m[2023-06-04T21:50:18.742Z] - level: error - Error in login-DAO: Error: data and hash arguments required[39m
+[31m[2023-06-04T21:50:41.644Z] - level: error - Error in login-DAO: Error: data and hash arguments required[39m
+[31m[2023-06-04T21:50:41.648Z] - level: error - Error en login-Services: ReferenceError: user is not defined[39m
+[31m[2023-06-04T21:50:56.676Z] - level: error - Error in login-DAO: Error: data and hash arguments required[39m
+[31m[2023-06-04T21:52:02.835Z] - level: error - Error in login-DAO: Error: data and hash arguments required[39m
+[31m[2023-06-04T21:53:08.052Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T21:56:33.043Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T21:56:41.684Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T21:57:18.066Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T22:02:17.642Z] - level: error - Error in login-DAO: TypeError: bcrypt is not a function[39m
+[31m[2023-06-04T22:03:34.370Z] - level: error - Error in login-DAO: Error: secretOrPrivateKey must have a value[39m
+[31m[2023-06-04T22:04:18.621Z] - level: error - Error in login-DAO: Error: secretOrPrivateKey must have a value[39m
+[31m[2023-06-04T22:08:21.221Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T22:09:02.571Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T22:09:56.850Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T22:10:06.109Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T22:10:17.321Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T23:04:57.530Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:05:07.261Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T23:17:01.834Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:18:15.557Z] - level: error - Error en register-Services: TypeError: authDao.getUserByEmail is not a function[39m
+[31m[2023-06-04T23:19:04.220Z] - level: error - Error en register-Services: TypeError: authDao.userExistByEmail is not a function[39m
+[31m[2023-06-04T23:19:16.329Z] - level: error - Error en register-Services: ReferenceError: userExistByEmail is not defined[39m
+[31m[2023-06-04T23:19:28.101Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:21:06.847Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:22:41.418Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T23:23:31.334Z] - level: error - Error in register-DAO: MongoServerError: E11000 duplicate key error collection: prueba-tec.users index: username_1 dup key: { username: null }[39m
+[31m[2023-06-04T23:23:49.525Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T23:28:11.315Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:28:17.994Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T23:28:54.974Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T23:28:55.324Z] - level: error - Error in login-DAO: TypeError: Cannot read properties of null (reading 'password')[39m
+[31m[2023-06-04T23:44:10.335Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:48:04.852Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m
+[31m[2023-06-04T23:48:35.016Z] - level: error - Error en register-Services: Error: data and salt arguments required[39m

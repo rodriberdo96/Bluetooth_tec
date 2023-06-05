@@ -25,3 +25,4 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       // Muestra un mensaje de error en el formulario de login
     });
 });
+

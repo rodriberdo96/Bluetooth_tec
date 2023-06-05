@@ -22,6 +22,19 @@ class authControllers {
             res.status(403).json({message: error.message})
         }
     }
+    async loginGoogle(req, res) {
+        try{    
+                const user = await authService.loginGoogle(req.body)
+                const cookieExpires = process.env.COOKIE_TIME
+                res.cookie('token-cookie', user.token , { maxAge: cookieExpires, httpOnly: true });
+                res.status(200).json({token: user.token})
+            }catch(error){
+                res.status(403).json({message: error.message})
+        }
+    }
 }
+
+
+
 
 module.exports = authControllers

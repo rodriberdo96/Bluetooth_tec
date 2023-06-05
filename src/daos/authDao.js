@@ -17,7 +17,13 @@ class AuthDaoClass {
     async register(data) {
         try {
             const user = await User.create(data)
+            const data = {
+                id: user._id,
+                email: user.email
+                
+            }
             return user
+
         } catch (error) {
             logger.error("Error in register-DAO: " + error)
         }
@@ -25,20 +31,27 @@ class AuthDaoClass {
 
     async login(email, password) {
         try {
-            const user = await  User.findOne({ email })
-            const isPasswordMatch = bcrypt.compare(password, user.password)
-            if (!isPasswordMatch || !user) {
-                logger.warn('Usuario o contraseña incorrecta')
+            const user = await User.findOne({ email });
+            if (!user) {
+                logger.warn('Usuario no encontrado');
+                return null; 
             }
-            const payload = { id: user._id, email: user.email}
-            const secret = process.env.JWT_SECRET
-            const token = jwt.sign(payload, secret, { expiresIn: process.env.JWT_TIME })
-            return { ...payload, token }
+    
+            const isPasswordMatch = bcrypt.compare(password, user.password);
+            if (!isPasswordMatch) {
+                logger.warn('Contraseña incorrecta');
+                return null;
+            }
+    
+            const payload = { id: user._id, email: user.email };
+            const secret = process.env.JWT_SECRET;
+            const token = jwt.sign(payload, secret, { expiresIn: process.env.JWT_TIME });
+            return { ...payload, token };
         } catch (error) {
-            logger.error("Error in login-DAO: " + error)
+            logger.error("Error en login-DAO: " + error);
+            throw error;
         }
     }
-
     async getUserByToken(tokenH) {
         let token = tokenH
         try{
